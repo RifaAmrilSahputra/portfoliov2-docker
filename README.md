@@ -1,16 +1,32 @@
-# React + Vite
+# Portfolio React - Rifa Amril
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project ini adalah website portfolio statis menggunakan **React**, **Tailwind CSS**, dan **Vite**.  
+Sudah dikemas dengan **Docker** agar mudah dijalankan di berbagai lingkungan.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur
+- Hero, About, Skills, Projects, Contact, Footer
+- Responsif & Mobile-friendly
+- Hamburger menu animasi modern
+- Tailwind CSS untuk styling
+- Dockerized untuk mudah deploy
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cara Jalankan
 
-## Expanding the ESLint configuration
+### 1. Tanpa Docker (Development)
+```bash
+npm install
+npm run dev
+```
+Buka browser: http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Dengan Docker (Production)
+``` bash
+docker build -t my-portfolio .
+docker run -p 5173:5173 my-portfolio
+```
+
+Buka browser: http://localhost:5173
