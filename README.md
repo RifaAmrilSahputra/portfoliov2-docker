@@ -1,16 +1,7 @@
-# Portfolio React - Rifa Amril
+# Portfolio v2
 
-Project ini adalah website portfolio statis menggunakan **React**, **Tailwind CSS**, dan **Vite**.  
+Project ini adalah website portfolio menggunakan **React**, **Tailwind CSS**, dan **Vite**.  
 Sudah dikemas dengan **Docker** agar mudah dijalankan di berbagai lingkungan.
-
----
-
-## Fitur
-- Hero, About, Skills, Projects, Contact, Footer
-- Responsif & Mobile-friendly
-- Hamburger menu animasi modern
-- Tailwind CSS untuk styling
-- Dockerized untuk mudah deploy
 
 ---
 
